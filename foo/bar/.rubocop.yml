@@ -1,0 +1,43 @@
+AllCops:
+  DisplayCopNames: true
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - '../../../app/controllers/core/**/*'
+    - '../../../app/decorators/core/**/*'
+    - '../../../app/presenters/core/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    "%w": "[]"
+    "%W": "[]"
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+Style/SpaceInsideBlockBraces:
+  EnforcedStyleForEmptyBraces: space
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
